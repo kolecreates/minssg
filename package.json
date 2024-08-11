@@ -1,0 +1,24 @@
+{
+  "name": "minssg",
+  "version": "0.0.1",
+  "public": true,
+  "author": {
+    "name": "kolecreates",
+    "url": "https://github.com/kolecreates"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kolecreates/minssg"
+  },
+  "bin": {
+    "minssg": "./bin/cli.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "license": "MIT"
+}
